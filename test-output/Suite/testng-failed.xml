@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="JIRAAPI.Jira">
+        <methods>
+          <include name="deteleIssue"/>
+          <include name="createIssue"/>
+          <include name="getData"/>
+          <include name="commentIssue"/>
+          <include name="updateComment"/>
+        </methods>
+      </class> <!-- JIRAAPI.Jira -->
+      <class name="BasicTests.Basic5">
+        <methods>
+          <include name="getData"/>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- BasicTests.Basic5 -->
+      <class name="BasicTests.TestNG">
+        <methods>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- BasicTests.TestNG -->
+      <class name="BasicTests.Basic4XML">
+        <methods>
+          <include name="getData"/>
+          <include name="postanddeleteData"/>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- BasicTests.Basic4XML -->
+      <class name="BasicTests.Basic2">
+        <methods>
+          <include name="postanddeleteData"/>
+          <include name="postData"/>
+        </methods>
+      </class> <!-- BasicTests.Basic2 -->
+      <class name="TWITTERAPI.twitter">
+        <methods>
+          <include name="getAllTweets"/>
+          <include name="postTweet"/>
+          <include name="deleteTweet"/>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- TWITTERAPI.twitter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

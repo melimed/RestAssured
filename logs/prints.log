@@ -1,0 +1,130 @@
+12:32:01.995 [main] INFO  BasicTests.Basic4XML - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OmVhMDgwNGViMGNlMDNmYmM
+12:34:30.300 [main] INFO  BasicTests.Basic2 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjJlZjUxN2U4MTUwNzI4ZTI
+12:34:32.042 [main] INFO  Resources.listeners - failed on Test
+12:34:32.555 [main] INFO  BasicTests.Basic3 - {
+   "id" : "c3d97895f0a8731dc3c339c4cd70be5915b7f7de",
+   "place_id" : "qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjZkYmIxZjJiYTA0NzI2ZTY",
+   "reference" : "CkQxAAAA5-IOLCmdrup-Aa_amU0-aQUk3Fsk5WSDz8lz8unflZY5lgef8A_jEwdw0WFfGJfq6Ys3ZO-NEYOgXFW70zxXGBIQeCQIEL_s4X2BY97Q_mf6bBoUnPq-zZh2k-FX3hhsUY5RYAGrJjs",
+   "scope" : "APP",
+   "status" : "OK"
+}
+
+12:34:32.580 [main] INFO  BasicTests.Basic3 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjZkYmIxZjJiYTA0NzI2ZTY
+12:34:33.536 [main] INFO  Resources.listeners - failed on Test
+12:34:34.123 [main] INFO  Resources.listeners - failed on Test
+12:34:35.541 [main] INFO  JIRAAPI.Jira - 10180
+12:34:35.687 [main] INFO  JIRAAPI.Jira - 10180
+12:34:36.313 [main] INFO  TWITTERAPI.twitter - 968192590276452352
+12:34:36.746 [main] INFO  TWITTERAPI.twitter - 968192590276452352
+12:34:36.748 [main] INFO  TWITTERAPI.twitter - Base URI =https://api.twitter.com/1.1/statuses
+12:34:37.195 [main] INFO  TWITTERAPI.twitter - io.restassured.path.json.JsonPath@6cd56321
+12:34:37.737 [main] INFO  TWITTERAPI.twitter - 968192596324634625
+12:34:39.754 [main] INFO  BasicTests.Basic4XML - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjcwODA0MzUyMTIzNWJjZmQ
+13:00:38.853 [main] INFO  BasicTests.Basic2 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OmFiZWI2ZDFmOTFhMmE4OTA
+13:00:41.677 [main] INFO  BasicTests.Basic3 - {
+   "id" : "b67ece3fa28855e209c92bee185d0c4b5e29cba6",
+   "place_id" : "qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3Ojg1Nzg0MTBjNDQ5NzY3MGI",
+   "reference" : "CkQxAAAAUrtx0m8dPjdSb8dFrngq3HuLKjGD0tDJuGYRZJLwAi0HhDi9LHNjmom6uP7qT5YcTJsDgvMRolX7-5hr0muMbhIQ65hjMqd8j-NlIb-bTB4MHRoU2yo6ilVVoVRiyuPsi8Px5WGUu6c",
+   "scope" : "APP",
+   "status" : "OK"
+}
+
+13:00:41.692 [main] INFO  BasicTests.Basic3 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3Ojg1Nzg0MTBjNDQ5NzY3MGI
+13:00:42.891 [main] INFO  BasicTests.Basic5 - 17
+13:00:42.905 [main] INFO  BasicTests.Basic5 - Sydney Princess Cruises
+13:00:42.913 [main] INFO  BasicTests.Basic5 - Magistic Cruises
+13:00:42.929 [main] INFO  BasicTests.Basic5 - MSC Cruises Australia & New Zealand
+13:00:42.942 [main] INFO  BasicTests.Basic5 - Sydney Harbour Lunch Cruise
+13:00:42.958 [main] INFO  BasicTests.Basic5 - Karisma Cruises
+13:00:42.971 [main] INFO  BasicTests.Basic5 - Cruising Restaurants of Sydney
+13:00:42.983 [main] INFO  BasicTests.Basic5 - Casual Cruises
+13:00:42.992 [main] INFO  BasicTests.Basic5 - Captain Cook Cruises
+13:00:43.004 [main] INFO  BasicTests.Basic5 - Starship Sydney & Starship Aqua
+13:00:43.012 [main] INFO  BasicTests.Basic5 - Matilda Cruises
+13:00:43.028 [main] INFO  BasicTests.Basic5 - MV EPICURE
+13:00:43.040 [main] INFO  BasicTests.Basic5 - Oz Whale Watching
+13:00:43.054 [main] INFO  BasicTests.Basic5 - Wildboys Afloat Sydney - Best Hens Night in Sydney
+13:00:43.065 [main] INFO  BasicTests.Basic5 - Rhythmboat Cruises
+13:00:43.075 [main] INFO  BasicTests.Basic5 - Captain Cook Cruises - Darling Harbour
+13:00:43.085 [main] INFO  BasicTests.Basic5 - Fantasea Cruising
+13:00:43.092 [main] INFO  BasicTests.Basic5 - Whale Watching Sydney
+13:00:51.923 [main] INFO  JIRAAPI.Jira - 10182
+13:00:52.315 [main] INFO  JIRAAPI.Jira - 10182
+13:00:54.021 [main] INFO  TWITTERAPI.twitter - 968199207533326337
+13:00:54.535 [main] INFO  TWITTERAPI.twitter - 968199207533326337
+13:00:54.536 [main] INFO  TWITTERAPI.twitter - Base URI =https://api.twitter.com/1.1/statuses
+13:00:55.082 [main] INFO  TWITTERAPI.twitter - io.restassured.path.json.JsonPath@382c90c2
+13:00:55.819 [main] INFO  TWITTERAPI.twitter - 968199214663651329
+13:00:57.669 [main] INFO  BasicTests.Basic4XML - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjQ3MzA5ZDJlYmM3Y2Q5MGI
+13:07:06.481 [main] INFO  BasicTests.Basic2 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OmI3YWM2ODE2Yzc5Y2YxMDY
+13:07:08.695 [main] INFO  BasicTests.Basic3 - {
+   "id" : "e519e5de450937de8e9d78a6dd58c81110a86d96",
+   "place_id" : "qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjVhM2IzMWU3OWM5YzYyN2Q",
+   "reference" : "CkQxAAAAKdV8avxlPpbnIkmfG2VHb9u-n_DFFMtLX9-p0wP4JETMj9NxJgiNEbCbL6lSSj2eR6awfe8BQfgCFzq_NYBq2BIQIZepK6UJB2uv5b5g18YeOBoUr85ksVhp_LlG35_JOYqMxDOsicM",
+   "scope" : "APP",
+   "status" : "OK"
+}
+
+13:07:08.706 [main] INFO  BasicTests.Basic3 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjVhM2IzMWU3OWM5YzYyN2Q
+13:07:09.678 [main] INFO  BasicTests.Basic5 - 17
+13:07:09.693 [main] INFO  BasicTests.Basic5 - Sydney Princess Cruises
+13:07:09.703 [main] INFO  BasicTests.Basic5 - Magistic Cruises
+13:07:09.718 [main] INFO  BasicTests.Basic5 - MSC Cruises Australia & New Zealand
+13:07:09.737 [main] INFO  BasicTests.Basic5 - Sydney Harbour Lunch Cruise
+13:07:09.762 [main] INFO  BasicTests.Basic5 - Karisma Cruises
+13:07:09.782 [main] INFO  BasicTests.Basic5 - Cruising Restaurants of Sydney
+13:07:09.793 [main] INFO  BasicTests.Basic5 - Casual Cruises
+13:07:09.807 [main] INFO  BasicTests.Basic5 - Captain Cook Cruises
+13:07:09.820 [main] INFO  BasicTests.Basic5 - Starship Sydney & Starship Aqua
+13:07:09.831 [main] INFO  BasicTests.Basic5 - Matilda Cruises
+13:07:09.849 [main] INFO  BasicTests.Basic5 - MV EPICURE
+13:07:09.866 [main] INFO  BasicTests.Basic5 - Oz Whale Watching
+13:07:09.878 [main] INFO  BasicTests.Basic5 - Wildboys Afloat Sydney - Best Hens Night in Sydney
+13:07:09.888 [main] INFO  BasicTests.Basic5 - Rhythmboat Cruises
+13:07:09.898 [main] INFO  BasicTests.Basic5 - Captain Cook Cruises - Darling Harbour
+13:07:09.908 [main] INFO  BasicTests.Basic5 - Fantasea Cruising
+13:07:09.916 [main] INFO  BasicTests.Basic5 - Whale Watching Sydney
+13:07:11.379 [main] INFO  JIRAAPI.Jira - 10184
+13:07:11.464 [main] INFO  JIRAAPI.Jira - 10184
+13:07:12.141 [main] INFO  TWITTERAPI.twitter - 968200793655562244
+13:07:12.605 [main] INFO  TWITTERAPI.twitter - 968200793655562244
+13:07:12.607 [main] INFO  TWITTERAPI.twitter - Base URI =https://api.twitter.com/1.1/statuses
+13:07:13.040 [main] INFO  TWITTERAPI.twitter - io.restassured.path.json.JsonPath@688d411b
+13:07:13.578 [main] INFO  TWITTERAPI.twitter - 968200799900889089
+13:07:14.462 [main] INFO  BasicTests.Basic4XML - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjFjNjdjZjEzYzE2MWYyN2I
+13:11:57.208 [main] INFO  BasicTests.Basic2 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjQ2YTU1NzgxYmY3YjI3OWM
+13:11:59.322 [main] INFO  BasicTests.Basic3 - {
+   "id" : "6984dad31930a2f6318feadfaf34f8f008acb022",
+   "place_id" : "qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OmYwY2Q4MTQ3ZjBmMWIxOTc",
+   "reference" : "CkQxAAAAiARAz2xcRkkI1jEQ-WyVKPmxiQuBdyiFfK9PqgT6pC2PGvs6m7EV5DPsXHnJBNgf28OOaxPUsTqX_q5g6uJsoRIQBd3sWxBgZ25Wnn26YGTKOxoUvDpRXuBwrUvtjGCJobRhuV8RJ7Q",
+   "scope" : "APP",
+   "status" : "OK"
+}
+
+13:11:59.334 [main] INFO  BasicTests.Basic3 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OmYwY2Q4MTQ3ZjBmMWIxOTc
+13:12:00.554 [main] INFO  BasicTests.Basic5 - 17
+13:12:00.568 [main] INFO  BasicTests.Basic5 - Sydney Princess Cruises
+13:12:00.579 [main] INFO  BasicTests.Basic5 - Magistic Cruises
+13:12:00.589 [main] INFO  BasicTests.Basic5 - MSC Cruises Australia & New Zealand
+13:12:00.612 [main] INFO  BasicTests.Basic5 - Sydney Harbour Lunch Cruise
+13:12:00.627 [main] INFO  BasicTests.Basic5 - Karisma Cruises
+13:12:00.637 [main] INFO  BasicTests.Basic5 - Cruising Restaurants of Sydney
+13:12:00.647 [main] INFO  BasicTests.Basic5 - Casual Cruises
+13:12:00.659 [main] INFO  BasicTests.Basic5 - Captain Cook Cruises
+13:12:00.673 [main] INFO  BasicTests.Basic5 - Starship Sydney & Starship Aqua
+13:12:00.690 [main] INFO  BasicTests.Basic5 - Matilda Cruises
+13:12:00.703 [main] INFO  BasicTests.Basic5 - MV EPICURE
+13:12:00.711 [main] INFO  BasicTests.Basic5 - Oz Whale Watching
+13:12:00.733 [main] INFO  BasicTests.Basic5 - Wildboys Afloat Sydney - Best Hens Night in Sydney
+13:12:00.760 [main] INFO  BasicTests.Basic5 - Rhythmboat Cruises
+13:12:00.776 [main] INFO  BasicTests.Basic5 - Captain Cook Cruises - Darling Harbour
+13:12:00.791 [main] INFO  BasicTests.Basic5 - Fantasea Cruising
+13:12:00.804 [main] INFO  BasicTests.Basic5 - Whale Watching Sydney
+13:12:02.560 [main] INFO  JIRAAPI.Jira - 10186
+13:12:02.660 [main] INFO  JIRAAPI.Jira - 10186
+13:12:03.388 [main] INFO  TWITTERAPI.twitter - 968202014973972487
+13:12:03.874 [main] INFO  TWITTERAPI.twitter - 968202014973972487
+13:12:03.875 [main] INFO  TWITTERAPI.twitter - Base URI =https://api.twitter.com/1.1/statuses
+13:12:04.282 [main] INFO  TWITTERAPI.twitter - io.restassured.path.json.JsonPath@382c90c2
+13:12:04.908 [main] INFO  TWITTERAPI.twitter - 968202021391257600
+13:12:05.803 [main] INFO  BasicTests.Basic4XML - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OmRmYTAyNmJhODZkYjhmZmM
