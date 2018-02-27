@@ -7,17 +7,17 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
+      <class name="BasicTests.TestNG">
+        <methods>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- BasicTests.TestNG -->
       <class name="BasicTests.Basic5">
         <methods>
           <include name="getData"/>
           <include name="Test"/>
         </methods>
       </class> <!-- BasicTests.Basic5 -->
-      <class name="BasicTests.TestNG">
-        <methods>
-          <include name="Test"/>
-        </methods>
-      </class> <!-- BasicTests.TestNG -->
       <class name="BasicTests.Basic3">
         <methods>
           <include name="getData"/>

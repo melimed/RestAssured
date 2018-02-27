@@ -1,101 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+<testng-results skipped="0" failed="3" ignored="0" total="15" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13839" started-at="2018-02-26T19:11:52Z" finished-at="2018-02-26T19:12:06Z">
+  <suite name="Suite" duration-ms="19385" started-at="2018-02-26T23:51:10Z" finished-at="2018-02-26T23:51:30Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13839" started-at="2018-02-26T19:11:52Z" finished-at="2018-02-26T19:12:06Z">
+    <test name="Test" duration-ms="19385" started-at="2018-02-26T23:51:10Z" finished-at="2018-02-26T23:51:30Z">
       <class name="TWITTERAPI.twitter">
-        <test-method status="PASS" signature="deleteTweet()[pri:0, instance:TWITTERAPI.twitter@1139b2f3]" name="deleteTweet" duration-ms="1214" started-at="2018-02-26T19:12:02Z" finished-at="2018-02-26T19:12:03Z">
+        <test-method status="PASS" signature="deleteTweet()[pri:0, instance:TWITTERAPI.twitter@7a69b07]" name="deleteTweet" duration-ms="1747" started-at="2018-02-26T23:51:25Z" finished-at="2018-02-26T23:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTweet -->
-        <test-method status="PASS" signature="getAllTweets()[pri:0, instance:TWITTERAPI.twitter@1139b2f3]" name="getAllTweets" duration-ms="408" started-at="2018-02-26T19:12:03Z" finished-at="2018-02-26T19:12:04Z">
+        <test-method status="PASS" signature="getAllTweets()[pri:0, instance:TWITTERAPI.twitter@7a69b07]" name="getAllTweets" duration-ms="448" started-at="2018-02-26T23:51:26Z" finished-at="2018-02-26T23:51:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllTweets -->
-        <test-method status="PASS" signature="postTweet()[pri:0, instance:TWITTERAPI.twitter@1139b2f3]" name="postTweet" duration-ms="624" started-at="2018-02-26T19:12:04Z" finished-at="2018-02-26T19:12:04Z">
+        <test-method status="PASS" signature="postTweet()[pri:0, instance:TWITTERAPI.twitter@7a69b07]" name="postTweet" duration-ms="828" started-at="2018-02-26T23:51:27Z" finished-at="2018-02-26T23:51:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postTweet -->
       </class> <!-- TWITTERAPI.twitter -->
       <class name="JIRAAPI.Jira">
-        <test-method status="PASS" signature="commentIssue()[pri:0, instance:JIRAAPI.Jira@1ddf84b8]" name="commentIssue" duration-ms="504" started-at="2018-02-26T19:12:01Z" finished-at="2018-02-26T19:12:01Z">
+        <test-method status="PASS" signature="commentIssue()[pri:0, instance:JIRAAPI.Jira@1139b2f3]" name="commentIssue" duration-ms="5220" started-at="2018-02-26T23:51:18Z" finished-at="2018-02-26T23:51:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- commentIssue -->
-        <test-method status="PASS" signature="createIssue()[pri:0, instance:JIRAAPI.Jira@1ddf84b8]" name="createIssue" duration-ms="184" started-at="2018-02-26T19:12:01Z" finished-at="2018-02-26T19:12:01Z">
+        <test-method status="PASS" signature="createIssue()[pri:0, instance:JIRAAPI.Jira@1139b2f3]" name="createIssue" duration-ms="346" started-at="2018-02-26T23:51:23Z" finished-at="2018-02-26T23:51:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createIssue -->
-        <test-method status="PASS" signature="deteleIssue()[pri:0, instance:JIRAAPI.Jira@1ddf84b8]" name="deteleIssue" duration-ms="296" started-at="2018-02-26T19:12:01Z" finished-at="2018-02-26T19:12:02Z">
+        <test-method status="PASS" signature="deteleIssue()[pri:0, instance:JIRAAPI.Jira@1139b2f3]" name="deteleIssue" duration-ms="654" started-at="2018-02-26T23:51:23Z" finished-at="2018-02-26T23:51:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deteleIssue -->
-        <test-method status="PASS" signature="updateComment()[pri:0, instance:JIRAAPI.Jira@1ddf84b8]" name="updateComment" duration-ms="380" started-at="2018-02-26T19:12:02Z" finished-at="2018-02-26T19:12:02Z">
+        <test-method status="PASS" signature="updateComment()[pri:0, instance:JIRAAPI.Jira@1139b2f3]" name="updateComment" duration-ms="742" started-at="2018-02-26T23:51:24Z" finished-at="2018-02-26T23:51:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateComment -->
       </class> <!-- JIRAAPI.Jira -->
       <class name="BasicTests.Basic2">
-        <test-method status="PASS" signature="postData()[pri:0, instance:BasicTests.Basic2@5e82df6a]" name="postData" duration-ms="4075" started-at="2018-02-26T19:11:52Z" finished-at="2018-02-26T19:11:56Z">
+        <test-method status="PASS" signature="postData()[pri:0, instance:BasicTests.Basic2@3f197a46]" name="postData" duration-ms="2703" started-at="2018-02-26T23:51:10Z" finished-at="2018-02-26T23:51:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postData -->
-        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic2@5e82df6a]" name="postanddeleteData" duration-ms="1144" started-at="2018-02-26T19:11:56Z" finished-at="2018-02-26T19:11:57Z">
+        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic2@3f197a46]" name="postanddeleteData" duration-ms="1298" started-at="2018-02-26T23:51:13Z" finished-at="2018-02-26T23:51:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postanddeleteData -->
       </class> <!-- BasicTests.Basic2 -->
       <class name="BasicTests.Basic5">
-        <test-method status="PASS" signature="Test()[pri:0, instance:BasicTests.Basic5@5c30a9b0]" name="Test" duration-ms="830" started-at="2018-02-26T19:11:59Z" finished-at="2018-02-26T19:12:00Z">
+        <test-method status="FAIL" signature="Test()[pri:0, instance:BasicTests.Basic5@1ddf84b8]" name="Test" duration-ms="511" started-at="2018-02-26T23:51:17Z" finished-at="2018-02-26T23:51:17Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path results[0].name doesn't match.
+Expected: Sydney Princess Cruises
+  Actual: Magistic Cruises
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path results[0].name doesn't match.
+Expected: Sydney Princess Cruises
+  Actual: Magistic Cruises
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
+at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
+at BasicTests.Basic5.Test(Basic5.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
       </class> <!-- BasicTests.Basic5 -->
       <class name="BasicTests.Basic3">
-        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic3@635eaaf1]" name="getData" is-config="true" duration-ms="8" started-at="2018-02-26T19:11:52Z" finished-at="2018-02-26T19:11:52Z">
+        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic3@5c30a9b0]" name="getData" is-config="true" duration-ms="9" started-at="2018-02-26T23:51:10Z" finished-at="2018-02-26T23:51:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic4XML@7a69b07]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-26T19:11:52Z" finished-at="2018-02-26T19:11:52Z">
+        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic4XML@5e82df6a]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-26T23:51:10Z" finished-at="2018-02-26T23:51:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic5@5c30a9b0]" name="getData" is-config="true" duration-ms="1" started-at="2018-02-26T19:11:52Z" finished-at="2018-02-26T19:11:52Z">
+        <test-method status="PASS" signature="getData()[pri:0, instance:JIRAAPI.Jira@1139b2f3]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-26T23:51:10Z" finished-at="2018-02-26T23:51:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:TWITTERAPI.twitter@1139b2f3]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-26T19:11:52Z" finished-at="2018-02-26T19:11:52Z">
+        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic5@1ddf84b8]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-26T23:51:10Z" finished-at="2018-02-26T23:51:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:JIRAAPI.Jira@1ddf84b8]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-26T19:11:52Z" finished-at="2018-02-26T19:11:52Z">
+        <test-method status="PASS" signature="getData()[pri:0, instance:TWITTERAPI.twitter@7a69b07]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-26T23:51:10Z" finished-at="2018-02-26T23:51:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:BasicTests.Basic3@635eaaf1]" name="Test" duration-ms="1042" started-at="2018-02-26T19:11:57Z" finished-at="2018-02-26T19:11:58Z">
+        <test-method status="FAIL" signature="Test()[pri:0, instance:BasicTests.Basic3@5c30a9b0]" name="Test" duration-ms="1242" started-at="2018-02-26T23:51:14Z" finished-at="2018-02-26T23:51:16Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path results[0].name doesn't match.
+Expected: Sydney Princess Cruises
+  Actual: Magistic Cruises
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path results[0].name doesn't match.
+Expected: Sydney Princess Cruises
+  Actual: Magistic Cruises
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
+at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
+at BasicTests.Basic3.Test(Basic3.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic3@635eaaf1]" name="postanddeleteData" duration-ms="1057" started-at="2018-02-26T19:11:58Z" finished-at="2018-02-26T19:11:59Z">
+        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic3@5c30a9b0]" name="postanddeleteData" duration-ms="993" started-at="2018-02-26T23:51:16Z" finished-at="2018-02-26T23:51:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postanddeleteData -->
       </class> <!-- BasicTests.Basic3 -->
       <class name="BasicTests.Basic4XML">
-        <test-method status="PASS" signature="Test()[pri:0, instance:BasicTests.Basic4XML@7a69b07]" name="Test" duration-ms="431" started-at="2018-02-26T19:12:04Z" finished-at="2018-02-26T19:12:05Z">
+        <test-method status="PASS" signature="Test()[pri:0, instance:BasicTests.Basic4XML@5e82df6a]" name="Test" duration-ms="453" started-at="2018-02-26T23:51:28Z" finished-at="2018-02-26T23:51:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic4XML@7a69b07]" name="postanddeleteData" duration-ms="1124" started-at="2018-02-26T19:12:05Z" finished-at="2018-02-26T19:12:06Z">
+        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic4XML@5e82df6a]" name="postanddeleteData" duration-ms="1503" started-at="2018-02-26T23:51:28Z" finished-at="2018-02-26T23:51:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postanddeleteData -->
       </class> <!-- BasicTests.Basic4XML -->
       <class name="BasicTests.TestNG">
-        <test-method status="PASS" signature="Test()[pri:0, instance:BasicTests.TestNG@3f197a46]" name="Test" duration-ms="480" started-at="2018-02-26T19:12:00Z" finished-at="2018-02-26T19:12:01Z">
+        <test-method status="FAIL" signature="Test()[pri:0, instance:BasicTests.TestNG@636be97c]" name="Test" duration-ms="643" started-at="2018-02-26T23:51:17Z" finished-at="2018-02-26T23:51:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path results[0].name doesn't match.
+Expected: Sydney Princess Cruises
+  Actual: Magistic Cruises
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path results[0].name doesn't match.
+Expected: Sydney Princess Cruises
+  Actual: Magistic Cruises
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
+at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
+at BasicTests.TestNG.Test(TestNG.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->

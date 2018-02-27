@@ -1,4 +1,31 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.559 s - in TestSuite
+Tests run: 15, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 21.257 s <<< FAILURE! - in TestSuite
+Test(BasicTests.Basic3)  Time elapsed: 1.253 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path results[0].name doesn't match.
+Expected: Sydney Princess Cruises
+  Actual: Magistic Cruises
+
+	at BasicTests.Basic3.Test(Basic3.java:45)
+
+Test(BasicTests.Basic5)  Time elapsed: 0.513 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path results[0].name doesn't match.
+Expected: Sydney Princess Cruises
+  Actual: Magistic Cruises
+
+	at BasicTests.Basic5.Test(Basic5.java:45)
+
+Test(BasicTests.TestNG)  Time elapsed: 0.64 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path results[0].name doesn't match.
+Expected: Sydney Princess Cruises
+  Actual: Magistic Cruises
+
+	at BasicTests.TestNG.Test(TestNG.java:24)
+
