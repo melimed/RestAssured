@@ -72,7 +72,7 @@ public class Basic2 {
 				extract().response();
 		//convert the response on a string
 		String responseString =response.asString();
-		System.out.println(responseString);
+		//System.out.println(responseString);
 		//convert the string on a json
 		JsonPath js = new JsonPath(responseString);
 		//Get the desired parameter from the json

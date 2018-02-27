@@ -13,17 +13,17 @@
           <include name="Test"/>
         </methods>
       </class> <!-- BasicTests.Basic3 -->
+      <class name="BasicTests.TestNG">
+        <methods>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- BasicTests.TestNG -->
       <class name="BasicTests.Basic5">
         <methods>
           <include name="getData"/>
           <include name="Test"/>
         </methods>
       </class> <!-- BasicTests.Basic5 -->
-      <class name="BasicTests.TestNG">
-        <methods>
-          <include name="Test"/>
-        </methods>
-      </class> <!-- BasicTests.TestNG -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

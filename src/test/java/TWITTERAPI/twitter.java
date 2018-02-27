@@ -28,7 +28,7 @@ public class twitter {
 	@Test
 	public void getAllTweets() throws IOException
 	{	
-		Log.info("Base URI ="+prop.getProperty("baseURI"));
+		//Log.info("Base URI ="+prop.getProperty("baseURI"));
 		RestAssured.baseURI=prop.getProperty("baseURI");
 		Response res=given().auth().oauth(prop.getProperty("consumerkey"), prop.getProperty("consumersecret"), prop.getProperty("token"), prop.getProperty("tokensecret")).
 		when().

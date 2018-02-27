@@ -2,67 +2,67 @@
 <testng-results skipped="0" failed="3" ignored="0" total="15" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12206" started-at="2018-02-27T17:12:22Z" finished-at="2018-02-27T17:12:34Z">
+  <suite name="Suite" duration-ms="14426" started-at="2018-02-27T17:48:40Z" finished-at="2018-02-27T17:48:55Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12206" started-at="2018-02-27T17:12:22Z" finished-at="2018-02-27T17:12:34Z">
+    <test name="Test" duration-ms="14426" started-at="2018-02-27T17:48:40Z" finished-at="2018-02-27T17:48:55Z">
       <class name="TWITTERAPI.twitter">
-        <test-method status="PASS" signature="deleteTweet()[pri:0, instance:TWITTERAPI.twitter@1ddf84b8]" name="deleteTweet" duration-ms="974" started-at="2018-02-27T17:12:30Z" finished-at="2018-02-27T17:12:31Z">
+        <test-method status="PASS" signature="deleteTweet()[pri:0, instance:TWITTERAPI.twitter@1139b2f3]" name="deleteTweet" duration-ms="1297" started-at="2018-02-27T17:48:50Z" finished-at="2018-02-27T17:48:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTweet -->
-        <test-method status="PASS" signature="getAllTweets()[pri:0, instance:TWITTERAPI.twitter@1ddf84b8]" name="getAllTweets" duration-ms="398" started-at="2018-02-27T17:12:31Z" finished-at="2018-02-27T17:12:32Z">
+        <test-method status="PASS" signature="getAllTweets()[pri:0, instance:TWITTERAPI.twitter@1139b2f3]" name="getAllTweets" duration-ms="817" started-at="2018-02-27T17:48:52Z" finished-at="2018-02-27T17:48:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllTweets -->
-        <test-method status="PASS" signature="postTweet()[pri:0, instance:TWITTERAPI.twitter@1ddf84b8]" name="postTweet" duration-ms="516" started-at="2018-02-27T17:12:32Z" finished-at="2018-02-27T17:12:32Z">
+        <test-method status="PASS" signature="postTweet()[pri:0, instance:TWITTERAPI.twitter@1139b2f3]" name="postTweet" duration-ms="652" started-at="2018-02-27T17:48:52Z" finished-at="2018-02-27T17:48:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postTweet -->
       </class> <!-- TWITTERAPI.twitter -->
       <class name="JIRAAPI.Jira">
-        <test-method status="PASS" signature="commentIssue()[pri:0, instance:JIRAAPI.Jira@5c30a9b0]" name="commentIssue" duration-ms="516" started-at="2018-02-27T17:12:28Z" finished-at="2018-02-27T17:12:29Z">
+        <test-method status="PASS" signature="commentIssue()[pri:0, instance:JIRAAPI.Jira@1ddf84b8]" name="commentIssue" duration-ms="451" started-at="2018-02-27T17:48:49Z" finished-at="2018-02-27T17:48:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- commentIssue -->
-        <test-method status="PASS" signature="createIssue()[pri:0, instance:JIRAAPI.Jira@5c30a9b0]" name="createIssue" duration-ms="421" started-at="2018-02-27T17:12:29Z" finished-at="2018-02-27T17:12:29Z">
+        <test-method status="PASS" signature="createIssue()[pri:0, instance:JIRAAPI.Jira@1ddf84b8]" name="createIssue" duration-ms="206" started-at="2018-02-27T17:48:49Z" finished-at="2018-02-27T17:48:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createIssue -->
-        <test-method status="PASS" signature="deteleIssue()[pri:0, instance:JIRAAPI.Jira@5c30a9b0]" name="deteleIssue" duration-ms="303" started-at="2018-02-27T17:12:29Z" finished-at="2018-02-27T17:12:30Z">
+        <test-method status="PASS" signature="deteleIssue()[pri:0, instance:JIRAAPI.Jira@1ddf84b8]" name="deteleIssue" duration-ms="371" started-at="2018-02-27T17:48:49Z" finished-at="2018-02-27T17:48:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deteleIssue -->
-        <test-method status="PASS" signature="updateComment()[pri:0, instance:JIRAAPI.Jira@5c30a9b0]" name="updateComment" duration-ms="839" started-at="2018-02-27T17:12:30Z" finished-at="2018-02-27T17:12:30Z">
+        <test-method status="PASS" signature="updateComment()[pri:0, instance:JIRAAPI.Jira@1ddf84b8]" name="updateComment" duration-ms="621" started-at="2018-02-27T17:48:50Z" finished-at="2018-02-27T17:48:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateComment -->
       </class> <!-- JIRAAPI.Jira -->
       <class name="BasicTests.Basic2">
-        <test-method status="PASS" signature="postData()[pri:0, instance:BasicTests.Basic2@7a69b07]" name="postData" duration-ms="2632" started-at="2018-02-27T17:12:22Z" finished-at="2018-02-27T17:12:24Z">
+        <test-method status="PASS" signature="postData()[pri:0, instance:BasicTests.Basic2@5e82df6a]" name="postData" duration-ms="3044" started-at="2018-02-27T17:48:40Z" finished-at="2018-02-27T17:48:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postData -->
-        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic2@7a69b07]" name="postanddeleteData" duration-ms="949" started-at="2018-02-27T17:12:24Z" finished-at="2018-02-27T17:12:25Z">
+        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic2@5e82df6a]" name="postanddeleteData" duration-ms="1155" started-at="2018-02-27T17:48:43Z" finished-at="2018-02-27T17:48:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postanddeleteData -->
       </class> <!-- BasicTests.Basic2 -->
       <class name="BasicTests.Basic5">
-        <test-method status="FAIL" signature="Test()[pri:0, instance:BasicTests.Basic5@635eaaf1]" name="Test" duration-ms="507" started-at="2018-02-27T17:12:27Z" finished-at="2018-02-27T17:12:28Z">
+        <test-method status="FAIL" signature="Test()[pri:0, instance:BasicTests.Basic5@5c30a9b0]" name="Test" duration-ms="736" started-at="2018-02-27T17:48:47Z" finished-at="2018-02-27T17:48:48Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
 JSON path results[0].name doesn't match.
 Expected: Sydney Princess Cruises
-  Actual: Magistic Cruises
+  Actual: MSC Cruises Australia & New Zealand
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path results[0].name doesn't match.
 Expected: Sydney Princess Cruises
-  Actual: Magistic Cruises
+  Actual: MSC Cruises Australia & New Zealand
 
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -123,40 +123,40 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
         </test-method> <!-- Test -->
       </class> <!-- BasicTests.Basic5 -->
       <class name="BasicTests.Basic3">
-        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic3@31d7b7bf]" name="getData" is-config="true" duration-ms="8" started-at="2018-02-27T17:12:22Z" finished-at="2018-02-27T17:12:22Z">
+        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic3@635eaaf1]" name="getData" is-config="true" duration-ms="9" started-at="2018-02-27T17:48:40Z" finished-at="2018-02-27T17:48:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic5@635eaaf1]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-27T17:12:22Z" finished-at="2018-02-27T17:12:22Z">
+        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic4XML@7a69b07]" name="getData" is-config="true" duration-ms="1" started-at="2018-02-27T17:48:40Z" finished-at="2018-02-27T17:48:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:JIRAAPI.Jira@5c30a9b0]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-27T17:12:22Z" finished-at="2018-02-27T17:12:22Z">
+        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic5@5c30a9b0]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-27T17:48:40Z" finished-at="2018-02-27T17:48:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic4XML@1139b2f3]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-27T17:12:22Z" finished-at="2018-02-27T17:12:22Z">
+        <test-method status="PASS" signature="getData()[pri:0, instance:TWITTERAPI.twitter@1139b2f3]" name="getData" is-config="true" duration-ms="1" started-at="2018-02-27T17:48:40Z" finished-at="2018-02-27T17:48:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="getData()[pri:0, instance:TWITTERAPI.twitter@1ddf84b8]" name="getData" is-config="true" duration-ms="1" started-at="2018-02-27T17:12:22Z" finished-at="2018-02-27T17:12:22Z">
+        <test-method status="PASS" signature="getData()[pri:0, instance:JIRAAPI.Jira@1ddf84b8]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-27T17:48:40Z" finished-at="2018-02-27T17:48:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="FAIL" signature="Test()[pri:0, instance:BasicTests.Basic3@31d7b7bf]" name="Test" duration-ms="1185" started-at="2018-02-27T17:12:25Z" finished-at="2018-02-27T17:12:26Z">
+        <test-method status="FAIL" signature="Test()[pri:0, instance:BasicTests.Basic3@635eaaf1]" name="Test" duration-ms="1168" started-at="2018-02-27T17:48:44Z" finished-at="2018-02-27T17:48:46Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
 JSON path results[0].name doesn't match.
 Expected: Sydney Princess Cruises
-  Actual: Magistic Cruises
+  Actual: MSC Cruises Australia & New Zealand
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path results[0].name doesn't match.
 Expected: Sydney Princess Cruises
-  Actual: Magistic Cruises
+  Actual: MSC Cruises Australia & New Zealand
 
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -218,36 +218,36 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic3@31d7b7bf]" name="postanddeleteData" duration-ms="943" started-at="2018-02-27T17:12:26Z" finished-at="2018-02-27T17:12:27Z">
+        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic3@635eaaf1]" name="postanddeleteData" duration-ms="1349" started-at="2018-02-27T17:48:46Z" finished-at="2018-02-27T17:48:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postanddeleteData -->
       </class> <!-- BasicTests.Basic3 -->
       <class name="BasicTests.Basic4XML">
-        <test-method status="PASS" signature="Test()[pri:0, instance:BasicTests.Basic4XML@1139b2f3]" name="Test" duration-ms="478" started-at="2018-02-27T17:12:32Z" finished-at="2018-02-27T17:12:33Z">
+        <test-method status="PASS" signature="Test()[pri:0, instance:BasicTests.Basic4XML@7a69b07]" name="Test" duration-ms="571" started-at="2018-02-27T17:48:53Z" finished-at="2018-02-27T17:48:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic4XML@1139b2f3]" name="postanddeleteData" duration-ms="960" started-at="2018-02-27T17:12:33Z" finished-at="2018-02-27T17:12:34Z">
+        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic4XML@7a69b07]" name="postanddeleteData" duration-ms="1005" started-at="2018-02-27T17:48:54Z" finished-at="2018-02-27T17:48:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postanddeleteData -->
       </class> <!-- BasicTests.Basic4XML -->
       <class name="BasicTests.TestNG">
-        <test-method status="FAIL" signature="Test()[pri:0, instance:BasicTests.TestNG@5e82df6a]" name="Test" duration-ms="543" started-at="2018-02-27T17:12:28Z" finished-at="2018-02-27T17:12:28Z">
+        <test-method status="FAIL" signature="Test()[pri:0, instance:BasicTests.TestNG@3f197a46]" name="Test" duration-ms="926" started-at="2018-02-27T17:48:48Z" finished-at="2018-02-27T17:48:49Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
 JSON path results[0].name doesn't match.
 Expected: Sydney Princess Cruises
-  Actual: Magistic Cruises
+  Actual: MSC Cruises Australia & New Zealand
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 1 expectation failed.
 JSON path results[0].name doesn't match.
 Expected: Sydney Princess Cruises
-  Actual: Magistic Cruises
+  Actual: MSC Cruises Australia & New Zealand
 
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
