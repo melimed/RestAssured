@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="28.606" tests="15" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="13.727" tests="15" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\MELISS~1\AppData\Local\Temp\surefire5900120600312952886\surefirebooter522824731349452780.jar C:\Users\Melissa Medrano\AppData\Local\Temp\surefire5900120600312952886 2018-02-27T08-50-26_145-jvmRun1 surefire7100105856649608420tmp surefire_05030909669271852713tmp"/>
+    <property name="sun.java.command" value="C:\Users\MELISS~1\AppData\Local\Temp\surefire8025824840879214547\surefirebooter6097228127347244764.jar C:\Users\Melissa Medrano\AppData\Local\Temp\surefire8025824840879214547 2018-02-27T11-12-20_043-jvmRun1 surefire8113969389971102605tmp surefire_08331266682117188593tmp"/>
     <property name="surefire.test.class.path" value="C:\eclipse-workspace\RESTAssured\target\test-classes;C:\eclipse-workspace\RESTAssured\target\classes;C:\Users\Melissa Medrano\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\Melissa Medrano\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Melissa Medrano\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Melissa Medrano\.m2\repository\io\rest-assured\rest-assured\3.0.2\rest-assured-3.0.2.jar;C:\Users\Melissa Medrano\.m2\repository\org\codehaus\groovy\groovy\2.4.6\groovy-2.4.6.jar;C:\Users\Melissa Medrano\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.6\groovy-xml-2.4.6.jar;C:\Users\Melissa Medrano\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Melissa Medrano\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Melissa Medrano\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Melissa Medrano\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Melissa Medrano\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\Melissa Medrano\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Melissa Medrano\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Melissa Medrano\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Melissa Medrano\.m2\repository\io\rest-assured\json-path\3.0.2\json-path-3.0.2.jar;C:\Users\Melissa Medrano\.m2\repository\org\codehaus\groovy\groovy-json\2.4.6\groovy-json-2.4.6.jar;C:\Users\Melissa Medrano\.m2\repository\io\rest-assured\xml-path\3.0.2\xml-path-3.0.2.jar;C:\Users\Melissa Medrano\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Melissa Medrano\.m2\repository\io\rest-assured\rest-assured-common\3.0.2\rest-assured-common-3.0.2.jar;C:\Users\Melissa Medrano\.m2\repository\com\github\scribejava\scribejava-core\2.5.3\scribejava-core-2.5.3.jar;C:\Users\Melissa Medrano\.m2\repository\com\github\scribejava\scribejava-apis\2.5.3\scribejava-apis-2.5.3.jar;C:\Users\Melissa Medrano\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\Melissa Medrano\.m2\repository\org\apache\logging\log4j\log4j-core\2.10.0\log4j-core-2.10.0.jar;C:\Users\Melissa Medrano\.m2\repository\com\aventstack\extentreports\3.1.3\extentreports-3.1.3.jar;C:\Users\Melissa Medrano\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Melissa Medrano\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Melissa Medrano\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Melissa Medrano\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Melissa Medrano\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Melissa Medrano\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\Melissa Medrano\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Melissa Medrano\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Melissa Medrano\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\Melissa Medrano\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Melissa Medrano"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\MELISS~1\AppData\Local\Temp\surefire5900120600312952886\surefirebooter522824731349452780.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\MELISS~1\AppData\Local\Temp\surefire8025824840879214547\surefirebooter6097228127347244764.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_152\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\nodejs\;C:\apache-ant-1.10.2\bin;C:\Program Files\Java\jdk1.8.0_152\bin;C:\apache-maven-3.5.2\bin;C:\Program Files\Git\cmd:C:\Program Files\Git\bin;C:\Users\Melissa Medrano\AppData\Roaming\npm;C:\Users\Melissa Medrano\Downloads\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\nodejs\;C:\apache-ant-1.10.2\bin;C:\Program Files\Java\jdk1.8.0_152\bin;C:\apache-maven-3.5.2\bin;C:\Program Files\Git\cmd:C:\Program Files\Git\bin;C:\Users\Melissa Medrano\.m2;C:\Users\Melissa Medrano\AppData\Roaming\npm;C:\Users\Melissa Medrano\Downloads\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.152-b16"/>
@@ -60,9 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="postData" classname="BasicTests.Basic2" time="2.769"/>
-  <testcase name="postanddeleteData" classname="BasicTests.Basic2" time="0.978"/>
-  <testcase name="Test" classname="BasicTests.Basic3" time="1.146">
+  <testcase name="postData" classname="BasicTests.Basic2" time="2.633"/>
+  <testcase name="postanddeleteData" classname="BasicTests.Basic2" time="0.948"/>
+  <testcase name="Test" classname="BasicTests.Basic3" time="1.194">
     <failure message="1 expectation failed.&#10;JSON path results[0].name doesn&apos;t match.&#10;Expected: Sydney Princess Cruises&#10;  Actual: Magistic Cruises&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
 1 expectation failed.
 JSON path results[0].name doesn't match.
@@ -71,11 +71,11 @@ Expected: Sydney Princess Cruises
 
 	at BasicTests.Basic3.Test(Basic3.java:45)
 </failure>
-    <system-out><![CDATA[08:50:35.291 [main] INFO  Resources.listeners - failed on Test
+    <system-out><![CDATA[11:12:26.900 [main] INFO  Resources.listeners - failed on Test
 ]]></system-out>
   </testcase>
-  <testcase name="postanddeleteData" classname="BasicTests.Basic3" time="1.052"/>
-  <testcase name="Test" classname="BasicTests.Basic5" time="0.535">
+  <testcase name="postanddeleteData" classname="BasicTests.Basic3" time="0.943"/>
+  <testcase name="Test" classname="BasicTests.Basic5" time="0.522">
     <failure message="1 expectation failed.&#10;JSON path results[0].name doesn&apos;t match.&#10;Expected: Sydney Princess Cruises&#10;  Actual: Magistic Cruises&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
 1 expectation failed.
 JSON path results[0].name doesn't match.
@@ -84,10 +84,10 @@ Expected: Sydney Princess Cruises
 
 	at BasicTests.Basic5.Test(Basic5.java:45)
 </failure>
-    <system-out><![CDATA[08:50:36.876 [main] INFO  Resources.listeners - failed on Test
+    <system-out><![CDATA[11:12:28.357 [main] INFO  Resources.listeners - failed on Test
 ]]></system-out>
   </testcase>
-  <testcase name="Test" classname="BasicTests.TestNG" time="0.525">
+  <testcase name="Test" classname="BasicTests.TestNG" time="0.531">
     <failure message="1 expectation failed.&#10;JSON path results[0].name doesn&apos;t match.&#10;Expected: Sydney Princess Cruises&#10;  Actual: Magistic Cruises&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
 1 expectation failed.
 JSON path results[0].name doesn't match.
@@ -96,16 +96,16 @@ Expected: Sydney Princess Cruises
 
 	at BasicTests.TestNG.Test(TestNG.java:24)
 </failure>
-    <system-out><![CDATA[08:50:37.414 [main] INFO  Resources.listeners - failed on Test
+    <system-out><![CDATA[11:12:28.902 [main] INFO  Resources.listeners - failed on Test
 ]]></system-out>
   </testcase>
-  <testcase name="commentIssue" classname="JIRAAPI.Jira" time="4.47"/>
-  <testcase name="createIssue" classname="JIRAAPI.Jira" time="0.375"/>
-  <testcase name="deteleIssue" classname="JIRAAPI.Jira" time="1.202"/>
-  <testcase name="updateComment" classname="JIRAAPI.Jira" time="2.969"/>
-  <testcase name="deleteTweet" classname="TWITTERAPI.twitter" time="2.424"/>
-  <testcase name="getAllTweets" classname="TWITTERAPI.twitter" time="0.435"/>
-  <testcase name="postTweet" classname="TWITTERAPI.twitter" time="0.592"/>
-  <testcase name="Test" classname="BasicTests.Basic4XML" time="0.456"/>
-  <testcase name="postanddeleteData" classname="BasicTests.Basic4XML" time="1.606"/>
+  <testcase name="commentIssue" classname="JIRAAPI.Jira" time="0.519"/>
+  <testcase name="createIssue" classname="JIRAAPI.Jira" time="0.417"/>
+  <testcase name="deteleIssue" classname="JIRAAPI.Jira" time="0.302"/>
+  <testcase name="updateComment" classname="JIRAAPI.Jira" time="0.839"/>
+  <testcase name="deleteTweet" classname="TWITTERAPI.twitter" time="0.974"/>
+  <testcase name="getAllTweets" classname="TWITTERAPI.twitter" time="0.399"/>
+  <testcase name="postTweet" classname="TWITTERAPI.twitter" time="0.516"/>
+  <testcase name="Test" classname="BasicTests.Basic4XML" time="0.479"/>
+  <testcase name="postanddeleteData" classname="BasicTests.Basic4XML" time="0.959"/>
 </testsuite>

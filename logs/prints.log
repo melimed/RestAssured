@@ -21,3 +21,123 @@
 08:50:49.289 [main] INFO  TWITTERAPI.twitter - io.restassured.path.json.JsonPath@1a6cf771
 08:50:49.866 [main] INFO  TWITTERAPI.twitter - 968498658701447168
 08:50:51.493 [main] INFO  BasicTests.Basic4XML - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3Ojc4YjRiZmQ5MjY2Yjg5N2I
+10:54:42.417 [main] INFO  BasicTests.Basic2 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OmU3MGNmNThiMDZkNDNjODU
+10:54:44.673 [main] INFO  BasicTests.Basic3 - {
+   "id" : "bf8e6945273f2bba3cba7fa3b4ea4ec861dd1894",
+   "place_id" : "qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OmUyMWRjMDE0MDkwYTg4ZmE",
+   "reference" : "CkQxAAAAvELJ8fr1vkxpin_QbGOeK9DO3z0YpNt4ZsrAuV7wAEq7DoVunZW4nXlHNbdAgGGhfCWb4wKseEypCORDKtCMJRIQ2HQSGRSJqmOblYh3H__QdBoUFg4o9FMy5tuGl3rZTZaY8kIt8zA",
+   "scope" : "APP",
+   "status" : "OK"
+}
+
+10:54:44.682 [main] INFO  BasicTests.Basic3 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OmUyMWRjMDE0MDkwYTg4ZmE
+10:54:48.118 [main] INFO  JIRAAPI.Jira - 10207
+10:54:48.209 [main] INFO  JIRAAPI.Jira - 10207
+10:54:48.948 [main] INFO  TWITTERAPI.twitter - 968529859533209600
+10:54:49.433 [main] INFO  TWITTERAPI.twitter - 968529859533209600
+10:54:49.434 [main] INFO  TWITTERAPI.twitter - Base URI =https://api.twitter.com/1.1/statuses
+10:54:49.910 [main] INFO  TWITTERAPI.twitter - io.restassured.path.json.JsonPath@15dc339f
+10:54:50.498 [main] INFO  TWITTERAPI.twitter - 968529866269364224
+10:54:51.489 [main] INFO  BasicTests.Basic4XML - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjBhZTQwNDFhN2ExYTJlNWU
+10:55:26.296 [main] INFO  BasicTests.Basic2 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjMxYzRlYjgxMGI3NjliNzA
+10:55:27.838 [main] INFO  BasicTests.Basic3 - {
+   "id" : "cd2bc33c035b82ef1ba0d49d8e4f5000ae0e5cff",
+   "place_id" : "qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjhlYTZmMzVjY2E1ZTU2NTQ",
+   "reference" : "CkQxAAAAslCE3sNVsxIwJ43IcYdL2eJOCFF43nM6uEwdhhz7iMmMZbXuw711c4d98ngNpWI1NOKQogOnXwIHZX2ixrRNQxIQ4PbIKwrRAYEwjIHx0yGbpRoUVBHZ4xHp1uXqNIGSpUwZVuY7EUo",
+   "scope" : "APP",
+   "status" : "OK"
+}
+
+10:55:27.846 [main] INFO  BasicTests.Basic3 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjhlYTZmMzVjY2E1ZTU2NTQ
+10:55:30.999 [main] INFO  JIRAAPI.Jira - 10209
+10:55:31.109 [main] INFO  JIRAAPI.Jira - 10209
+10:55:31.904 [main] INFO  TWITTERAPI.twitter - 968530040127479808
+10:55:32.373 [main] INFO  TWITTERAPI.twitter - 968530040127479808
+10:55:32.374 [main] INFO  TWITTERAPI.twitter - Base URI =https://api.twitter.com/1.1/statuses
+10:55:32.996 [main] INFO  TWITTERAPI.twitter - io.restassured.path.json.JsonPath@15dc339f
+10:55:33.611 [main] INFO  TWITTERAPI.twitter - 968530046859337729
+10:55:34.592 [main] INFO  BasicTests.Basic4XML - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjBhMTNmNDhiYjQ5ZmRmMDE
+11:05:36.538 [main] INFO  BasicTests.Basic2 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3Ojg3Yjk1ZTFkNDczNDYwNDA
+11:05:38.414 [main] INFO  Resources.listeners - failed on Test
+11:05:38.923 [main] INFO  BasicTests.Basic3 - {
+   "id" : "04a2aa67d1d906f3a2b91ba47f8f2c6db7ef66ca",
+   "place_id" : "qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjMzM2JmMWYwNTQ5OWI5YTE",
+   "reference" : "CkQxAAAA1IIeunJ6xwvHa9i8__u_9eQ4zjUsn7QJavwm77Z6W3GtuhsAonFVoD26CUo7c0Xm64QojnjtEUsJeoBpwNttLhIQyyYzqRb5xTnfxVNYV21oDxoUVo07r6mXIDX16fHvrQLGswJMnTI",
+   "scope" : "APP",
+   "status" : "OK"
+}
+
+11:05:38.934 [main] INFO  BasicTests.Basic3 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjMzM2JmMWYwNTQ5OWI5YTE
+11:05:40.474 [main] INFO  Resources.listeners - failed on Test
+11:05:41.067 [main] INFO  Resources.listeners - failed on Test
+11:05:42.922 [main] INFO  JIRAAPI.Jira - 10211
+11:05:43.046 [main] INFO  JIRAAPI.Jira - 10211
+11:05:43.912 [main] INFO  TWITTERAPI.twitter - 968532606802366464
+11:05:44.427 [main] INFO  TWITTERAPI.twitter - 968532606802366464
+11:05:44.428 [main] INFO  TWITTERAPI.twitter - Base URI =https://api.twitter.com/1.1/statuses
+11:05:44.950 [main] INFO  TWITTERAPI.twitter - io.restassured.path.json.JsonPath@68e7c8c3
+11:05:45.523 [main] INFO  TWITTERAPI.twitter - 968532613756485633
+11:05:46.733 [main] INFO  BasicTests.Basic4XML - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OmYzNGE3ODdiODg4YmM3MGQ
+11:06:29.288 [main] INFO  BasicTests.Basic2 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OmUwYjE1ZmI0NTE2M2I3ZWU
+11:06:30.325 [main] INFO  Resources.listeners - failed on Test
+11:06:30.837 [main] INFO  BasicTests.Basic3 - {
+   "id" : "d97ad36a7e51e2f2e630a83467b376cb4b52f607",
+   "place_id" : "qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjU5Mzg3MTc0ZDg5MWU3ODc",
+   "reference" : "CkQxAAAA9VOg0w0IRZLl3dsLdlHGF8j2jGxFFxn5LvHygYiZyS3iSSfDv7DB06nFGIGJYf_6VtwEpCz9A9j256CU-jQfoxIQcN1YHXXd3FDy8GnC0QASGBoUT_Th1qag90Ve0VUZQ3xIACE3YVc",
+   "scope" : "APP",
+   "status" : "OK"
+}
+
+11:06:30.850 [main] INFO  BasicTests.Basic3 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjU5Mzg3MTc0ZDg5MWU3ODc
+11:06:31.840 [main] INFO  Resources.listeners - failed on Test
+11:06:32.386 [main] INFO  Resources.listeners - failed on Test
+11:06:34.089 [main] INFO  JIRAAPI.Jira - 10213
+11:06:34.177 [main] INFO  JIRAAPI.Jira - 10213
+11:06:34.829 [main] INFO  TWITTERAPI.twitter - 968532820443451392
+11:06:35.374 [main] INFO  TWITTERAPI.twitter - 968532820443451392
+11:06:35.376 [main] INFO  TWITTERAPI.twitter - Base URI =https://api.twitter.com/1.1/statuses
+11:06:35.867 [main] INFO  TWITTERAPI.twitter - io.restassured.path.json.JsonPath@77eb5790
+11:06:36.421 [main] INFO  TWITTERAPI.twitter - 968532827246653440
+11:06:37.583 [main] INFO  BasicTests.Basic4XML - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OmYxMDE5MTkxZmNlZTRlY2M
+11:08:51.795 [main] INFO  BasicTests.Basic2 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjgzNGM4YTUxZDY0ZmIwN2M
+11:08:53.700 [main] INFO  Resources.listeners - failed on Test
+11:08:54.166 [main] INFO  BasicTests.Basic3 - {
+   "id" : "ee4f92a3a7ba90dfa3ec55ce32a130ef368e3894",
+   "place_id" : "qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3Ojg3ZDVjZjNiOTM1NTEyZDI",
+   "reference" : "CkQxAAAAv3cQBYtFynWG4qJqwsCsV_Yaw-6XDtv5HzB_nC9jl9pc_D36Kkm_jzM8Nv1VqmEGeklMjxW7oPd9rIPYK40jThIQble-ODxNcHzEJFnXKGzthRoU8sA6OTDujSOS6Xo4ww-SXkdfT_8",
+   "scope" : "APP",
+   "status" : "OK"
+}
+
+11:08:54.201 [main] INFO  BasicTests.Basic3 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3Ojg3ZDVjZjNiOTM1NTEyZDI
+11:08:55.279 [main] INFO  Resources.listeners - failed on Test
+11:08:55.807 [main] INFO  Resources.listeners - failed on Test
+11:08:57.281 [main] INFO  JIRAAPI.Jira - 10215
+11:08:57.399 [main] INFO  JIRAAPI.Jira - 10215
+11:08:58.257 [main] INFO  TWITTERAPI.twitter - 968533421562695683
+11:08:59.354 [main] INFO  TWITTERAPI.twitter - 968533421562695683
+11:08:59.356 [main] INFO  TWITTERAPI.twitter - Base URI =https://api.twitter.com/1.1/statuses
+11:09:00.165 [main] INFO  TWITTERAPI.twitter - io.restassured.path.json.JsonPath@43d38654
+11:09:01.170 [main] INFO  TWITTERAPI.twitter - 968533433952735232
+11:09:03.519 [main] INFO  BasicTests.Basic4XML - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjBkZTNiY2E3YjQ1NDZiNTg
+11:12:25.274 [main] INFO  BasicTests.Basic2 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjY1MGU1YzQ4NjU1NjQ2YTY
+11:12:26.900 [main] INFO  Resources.listeners - failed on Test
+11:12:27.389 [main] INFO  BasicTests.Basic3 - {
+   "id" : "e4a5d933b28a6efe6ce67cb105b260a373629284",
+   "place_id" : "qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjU2MTMwMWFjZDAyYTgxNzQ",
+   "reference" : "CkQxAAAAFYVzIMPeWsij3ECJwjPxgsadcY1Y5sUs4JjLeQXkXhW3jj-0L3_gncvGgfxn7B6KqQlvBFU314k7Kno3ScDbghIQDBfAPkb84eHJNLq8PcTwDBoU_fF8mn6FrvzTYHxL8yzuX_NWw6A",
+   "scope" : "APP",
+   "status" : "OK"
+}
+
+11:12:27.402 [main] INFO  BasicTests.Basic3 - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjU2MTMwMWFjZDAyYTgxNzQ
+11:12:28.357 [main] INFO  Resources.listeners - failed on Test
+11:12:28.902 [main] INFO  Resources.listeners - failed on Test
+11:12:30.889 [main] INFO  JIRAAPI.Jira - 10217
+11:12:30.984 [main] INFO  JIRAAPI.Jira - 10217
+11:12:31.534 [main] INFO  TWITTERAPI.twitter - 968534316732043265
+11:12:31.958 [main] INFO  TWITTERAPI.twitter - 968534316732043265
+11:12:31.959 [main] INFO  TWITTERAPI.twitter - Base URI =https://api.twitter.com/1.1/statuses
+11:12:32.357 [main] INFO  TWITTERAPI.twitter - io.restassured.path.json.JsonPath@6cd56321
+11:12:32.873 [main] INFO  TWITTERAPI.twitter - 968534322419503104
+11:12:33.808 [main] INFO  BasicTests.Basic4XML - qgYvCi0wMDAwMDA4YjYyMWU1ZWRmOjZiMTJhZTM3YjQ3OjY3MjU0ZjFhMTkwOTQ1NzU
